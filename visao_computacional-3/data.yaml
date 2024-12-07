@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['Artefato', 'Basofilo', 'Bastonete', 'Eosinofilo', 'Linfocito', 'Linfocito atipico', 'Metamielocito', 'Mieloblasto', 'Mielocito', 'Monocito', 'Neutrofilo segmentado', 'Promielocito', 'Restos celulares']
+
+roboflow:
+  workspace: annotation-ranuk
+  project: visao_computacional
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/annotation-ranuk/visao_computacional/dataset/3
